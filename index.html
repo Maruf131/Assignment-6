@@ -1,20 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pets collection</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.24/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
 </head>
+
 <body>
     <header>
-
+        <nav class="w-11/12 mx-auto py-3 flex justify-between items-center border-b-2">
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                    <div class="flex gap-3 justify-center">
+                        <img src="images/logo.webp" alt="">
+                        <h1 class="text-lg font-bold ">Peddy</h1>
+                    </div>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1">
+                        <li><a>Home</a></li>
+                        <li><a>Shop</a></li>
+                        <li><a>Contact</a></li>
+                    </ul>
+                </div>
+                <div class="navbar-end">
+                    <img class="size-10" src="images/user.png" alt="">
+                </div>
+            </div>
+        </nav>
     </header>
     <main>
-
+        <!-- heading text section Start -->
+        <section>
+            <div class="text-center w-11/12 md:w-10/12 lg:w-11/12 mx-auto mt-5">
+                <h3 class="text-lg font-semibold text-gray-500">Bringing Families Together ❤️‍🔥</h3>
+                <h1 class="text-4xl font-bold lg:w-4/12 mx-auto mt-5">Your Path to Adoption Starts Here</h1>
+                <p class="mt-5 text-sm text-gray-700 lg:w-6/12 mx-auto">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a.</p>
+                <button class="btn btn-success text-white font-bold mt-10">View More</button>
+            </div>
+        </section>
+        <!-- heading text section end -->
         <script src="Script/index.js"></script>
     </main>
     <footer>
 
     </footer>
 </body>
+
 </html>
