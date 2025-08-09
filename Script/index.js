@@ -11,7 +11,7 @@ const displayCategories = (data) => {
   data.forEach((item) => {
     const div = document.createElement("div");
     div.innerHTML = `
-         <button class="btn w-full">
+         <button class="btn w-full ">
          <div class="flex gap-4">
             <img class="size-7" src="${item.category_icon}"/>
             <h1 class="text-lg font-bold">${item.category}</h1>
